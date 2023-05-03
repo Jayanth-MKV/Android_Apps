@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:title="Dashboard"
+            android:id="@+id/dashboard"
+            />
+        <item
+            android:id="@+id/pending_orders"
+            android:title="Pending Orders"
+            />
+        <item
+            android:id="@+id/packed_orders"
+            android:title="Packed Orders"
+            />
+        <item
+            android:id="@+id/cancelled_orders"
+            android:title="Cancelled Orders"
+            />
+
+    </group>
+    <item
+
+        android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/log_out"
+                android:title="Logout "
+                />
+        </menu>
+    </item>
+
+
+</menu>

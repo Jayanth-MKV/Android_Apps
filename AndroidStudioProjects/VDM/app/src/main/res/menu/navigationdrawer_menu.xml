@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:title="Dashboard"
+            android:id="@+id/dashboard"
+            />
+        <item
+            android:id="@+id/arrived_orders"
+            android:title="Arrived Orders"
+            />
+        <item
+            android:id="@+id/on_going_orders"
+            android:title="Assigned/On-Going Orders"
+            />
+        <item
+            android:id="@+id/success_orders"
+            android:title="Succeeded Orders"
+            />
+        <item
+            android:id="@+id/cancelled_orders"
+            android:title="Failed Orders"
+            />
+
+<!--        <item-->
+<!--            android:id="@+id/Statistics"-->
+<!--            android:title="Statistics"-->
+<!--            />-->
+
+    </group>
+    <!--<item
+
+        android:title="My Account ">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:title="Profile"
+                    android:id="@+id/profile"
+                    />
+                <item
+                    android:id="@+id/Payments"
+                    android:title="Payments"
+                    />
+
+
+            </group>
+        </menu>
+    </item>-->
+
+    <item
+        android:id="@+id/log_out"
+        android:title="Logout ">
+    </item>
+
+
+</menu>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">VFP</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="login">Login</string>
+    <string name="Email">Example:imgideongo@gmail.com</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="account">Account</string>
+    <string name="past_orders">Past Orders</string>
+    <string name="active_orders">Active Orders</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_price">Item Price</string>
+    <string name="add_item">Add Item</string>
+    <string name="set_item_image">Set Item Image</string>
+    <string name="add_item_information">Add Item Information</string>
+    <string name="save">Save</string>
+    <string name="error">Please Fill All Details..</string>
+    <string name="change">Change</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="select_image">Select Image</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="itemtype">ItemType</string>
+    <string name="inactive">InActive</string>
+    <string name="active">Active</string>
+    <string name="delete">Delete</string>
+    <string name="statistics">Statistics</string>
+    <string name="payable_ledger">Payable Ledger</string>
+    <string name="logout">Logout</string>
+    <string name="successfully_activated">Successfully Activated</string>
+    <string name="de_activated">Successfully De-Activated</string>
+    <string name="my_account">My Account</string>
+    <string name="change_login_credentials">Change Login Credentials</string>
+    <string name="orderid">OrderID</string>
+    <string name="quantity">Quantity</string>
+    <string name="agent_receiver">Agent Receiver</string>
+    <string name="agentimage">AgentImage</string>
+    <string name="call">Call</string>
+    <string name="show_items">Show Items</string>
+    <string name="item_name_english">Item Name (English)</string>
+    <string name="item_name_telugu">Item Name (Telugu)</string>
+    <string name="offer_in">Offer in %</string>
+    <string name="season_special">Season Special</string>
+
+    <string-array name="category">
+        <item>Vegetables</item>
+        <item>Fruits</item>
+    </string-array>
+    <string-array name="unit">
+        <item>kg</item>
+        <item>g</item>
+        <item>mg</item>
+    </string-array>
+
+</resources>

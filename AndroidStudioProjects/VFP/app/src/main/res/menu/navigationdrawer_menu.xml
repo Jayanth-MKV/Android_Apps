@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:title="@string/dashboard"
+            android:id="@+id/dashboard"
+            />
+        <item
+            android:title="@string/active_orders"
+            android:id="@+id/activeOrders"/>
+        <item
+            android:title="@string/past_orders"
+            android:id="@+id/pastOrders"/>
+
+        <item
+            android:id="@+id/statistics"
+            android:title="@string/statistics"
+            />
+        <item
+            android:id="@+id/transactions"
+            android:title="@string/payable_ledger"
+            />
+        <item
+            android:id="@+id/account"
+            android:title="@string/account"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout"/>
+
+    </group>
+</menu>

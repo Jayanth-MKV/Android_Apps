@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <!--    <color name="red">#E91E63</color>-->
+    <!--    &lt;!&ndash; colors for button style &ndash;&gt;-->
+
+    <!--    <color name="gradient_start_color">#f62459</color>-->
+    <!--    <color name="gradient_end_color">#f64747</color>-->
+
+
+
+<!--    dimigo pink-->
+<!--        <color name="red">#E91E63</color>-->
+<!--        &lt;!&ndash; colors for button style &ndash;&gt;-->
+
+<!--        <color name="gradient_start_color">#ec008c</color>-->
+<!--        <color name="gradient_end_color">#fc6767</color>-->
+
+
+<!--        &lt;!&ndash;royal blue&ndash;&gt;-->
+<!--        <color name="red">#E91E63</color>-->
+<!--        &lt;!&ndash; colors for button style &ndash;&gt;-->
+
+<!--        <color name="gradient_start_color">#536976</color>-->
+<!--        <color name="gradient_end_color">#292E49</color>-->
+
+
+
+    <!--    &lt;!&ndash;dark ocean&ndash;&gt;-->
+    <!--    <color name="red">#E91E63</color>-->
+    <!--    &lt;!&ndash; colors for button style &ndash;&gt;-->
+
+    <!--    <color name="gradient_start_color">#373B44</color>-->
+    <!--    <color name="gradient_end_color">#4286f4</color>-->
+
+    <!--amin-->
+    <color name="red">#E91E63</color>
+    <!-- colors for button style -->
+
+    <color name="gradient_start_color">#8E2DE2</color>
+    <color name="gradient_end_color">#4A00E0</color>
+
+
+    <!-- colors for tab and screent text -->
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+
+
+    <color name="primaryColor">#ffffff</color>
+    <color name="primaryLightColor">#ffffff</color>
+    <color name="primaryDarkColor">#cccccc</color>
+    <color name="secondaryColor">#2196f3</color>
+    <color name="secondaryLightColor">#6ec6ff</color>
+    <color name="secondaryDarkColor">#0069c0</color>
+    <color name="primaryTextColor">#2196f3</color>
+    <color name="secondaryTextColor">#ffffff</color>
+</resources>

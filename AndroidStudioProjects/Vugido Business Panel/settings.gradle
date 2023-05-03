@@ -1,0 +1,2 @@
+rootProject.name='Vugido Client Panel'
+include ':app'

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="@color/colorAccent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/menu_book"
+        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_iconColor="@color/gradient_start_color"
+        app:cnb_textColor="@color/gradient_start_color"
+        android:title="Home"
+        />
+   <!-- <item
+        android:id="@+id/bottom_read"
+        android:icon="@drawable/facts"
+        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_iconColor="@color/gradient_start_color"
+        app:cnb_textColor="@color/gradient_start_color"
+        android:title="Facts"
+        />-->
+<!--    <item-->
+<!--        android:id="@+id/bottom_search"-->
+<!--        android:icon="@drawable/search"-->
+<!--        app:cnb_backgroundColor="@color/colorAccent"-->
+<!--        app:cnb_iconColor="@color/gradient_start_color"-->
+<!--        app:cnb_textColor="@color/gradient_start_color"-->
+<!--        android:title="Search"-->
+<!--        />-->
+    <item
+        android:id="@+id/bottom_orders"
+        android:icon="@drawable/menu"
+        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_iconColor="@color/gradient_start_color"
+        app:cnb_textColor="@color/gradient_start_color"
+        android:title="Orders"
+        />
+    <item
+        android:id="@+id/bottom_account"
+        android:icon="@drawable/account"
+        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_iconColor="@color/gradient_start_color"
+        app:cnb_textColor="@color/gradient_start_color"
+        android:title="Account"
+        />
+
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:title="Dashboard"
+            android:id="@+id/dashboard"
+            />
+        <item
+            android:id="@+id/pending_orders"
+            android:title="Pending Orders"
+            />
+        <item
+            android:id="@+id/packed_orders"
+            android:title="Processed Orders"
+            />
+        <item
+            android:id="@+id/cancelled_orders"
+            android:title="Failed Orders"
+            />
+
+        <item
+            android:id="@+id/Statistics"
+            android:title="Statistics"
+            />
+        <item
+            android:id="@+id/Account_Settings"
+            android:title="Account Settings"
+            />
+
+    </group>
+    <!--<item
+
+        android:title="My Account ">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:title="Profile"
+                    android:id="@+id/profile"
+                    />
+                <item
+                    android:id="@+id/Payments"
+                    android:title="Payments"
+                    />
+
+
+            </group>
+        </menu>
+    </item>-->
+
+    <item
+        android:id="@+id/log_out"
+        android:title="Logout ">
+    </item>
+
+
+</menu>

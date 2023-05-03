@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_item_rel_layout"
+    android:theme="@style/OtherTheme"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+        <TextView
+            android:text="@string/add_item_information"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_below="@id/toolbar"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="text"
+                android:maxLines="1"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:hint="@string/item_name"
+                android:id="@+id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <Spinner
+                android:layout_margin="10dp"
+                android:entries="@array/type"
+                android:id="@+id/item_type"
+                android:layout_below="@id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+            <Spinner
+                android:layout_margin="10dp"
+                android:entries="@array/category"
+                android:id="@+id/item_cat"
+                android:layout_below="@id/item_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+            <Spinner
+                android:layout_margin="10dp"
+                android:entries="@array/sub_category"
+                android:id="@+id/sub_item_cat"
+                android:layout_below="@id/item_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <EditText
+                android:drawableStart="@drawable/ic_currency_inr_black_18dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:hint="@string/item_price"
+                android:id="@+id/item_price"
+                android:layout_below="@id/sub_item_cat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <TextView
+                android:id="@+id/set_item_image_text"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:text="@string/set_item_image"
+                android:layout_below="@id/item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/add"
+                android:id="@+id/item_image_add_button"
+                android:layout_below="@id/set_item_image_text"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="30dp"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                android:id="@+id/item_image"
+                android:layout_below="@id/set_item_image_text"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/changeImage"
+                android:layout_marginStart="20dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/refresh"
+                android:layout_toEndOf="@id/set_item_image_text"
+                android:layout_below="@id/item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

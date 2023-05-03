@@ -1,0 +1,170 @@
+{
+  "project_info": {
+    "project_number": "317968390986",
+    "firebase_url": "https://vugido.firebaseio.com",
+    "project_id": "vugido",
+    "storage_bucket": "vugido.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:3d0f4c2c18c28b5c24ffb3",
+        "android_client_info": {
+          "package_name": "com.foodhub.vugido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317968390986-ldfkt6nd4io35i8rrglpb6r2ttaaij9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodhub.vugido",
+            "certificate_hash": "080c25d094d3ecae52a393f9e8d8ec0099562ede"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        },
+        {
+          "current_key": "AIzaSyB-JyNR5Kbr78dNaKq9CHEDDOUAWBDAxoI"
+        },
+        {
+          "current_key": "AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:f341ea5f4e92733424ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido.StudentTime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        },
+        {
+          "current_key": "AIzaSyB-JyNR5Kbr78dNaKq9CHEDDOUAWBDAxoI"
+        },
+        {
+          "current_key": "AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:353256627d65267324ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido.com.vugidoeats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        },
+        {
+          "current_key": "AIzaSyB-JyNR5Kbr78dNaKq9CHEDDOUAWBDAxoI"
+        },
+        {
+          "current_key": "AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:14a9c637f4186a4c24ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido.foods.vugidodeliveryagent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        },
+        {
+          "current_key": "AIzaSyB-JyNR5Kbr78dNaKq9CHEDDOUAWBDAxoI"
+        },
+        {
+          "current_key": "AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:9de503d2a848874c",
+        "android_client_info": {
+          "package_name": "com.vugido.vugido"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        },
+        {
+          "current_key": "AIzaSyB-JyNR5Kbr78dNaKq9CHEDDOUAWBDAxoI"
+        },
+        {
+          "current_key": "AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:55f719c944654fc724ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido_business_panel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        },
+        {
+          "current_key": "AIzaSyB-JyNR5Kbr78dNaKq9CHEDDOUAWBDAxoI"
+        },
+        {
+          "current_key": "AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/Order_ID_Time"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#ffc000"
+                android:id="@+id/OID"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/TIME"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/colorAccent"
+
+            android:id="@+id/Item_Count"
+            android:padding="10dp"
+            android:layout_below="@id/Order_ID_Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/colorAccent"
+
+            android:id="@+id/Delivery_Mode"
+            android:padding="10dp"
+            android:layout_below="@id/Item_Count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/colorAccent"
+
+            android:id="@+id/Total_Price"
+            android:padding="10dp"
+            android:layout_below="@id/Delivery_Mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/colorAccent"
+
+            android:id="@+id/Address"
+            android:padding="10dp"
+            android:layout_below="@id/Total_Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_below="@id/Address"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:textAllCaps="false"
+                android:layout_marginEnd="2dp"
+                android:id="@+id/ButtonSeeItems"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="See Items"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:textAllCaps="false"
+                android:layout_marginEnd="2dp"
+                android:id="@+id/OrderStatus"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="Packing"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

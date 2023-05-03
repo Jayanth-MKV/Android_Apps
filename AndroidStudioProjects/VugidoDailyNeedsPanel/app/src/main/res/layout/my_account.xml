@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/app_name"
+            android:id="@+id/clientLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/clientLogo"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:id="@+id/ClientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toEndOf="@id/clientLogo"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_below="@id/ClientName"
+            android:id="@+id/ClientAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:drawableEnd="@drawable/edit"
+            android:padding="10dp"
+            android:layout_below="@id/clientLogo"
+            android:id="@+id/ClientTimings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:drawableEnd="@drawable/edit"
+            android:padding="10dp"
+            android:layout_below="@id/ClientTimings"
+            android:id="@+id/ClientEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:drawableEnd="@drawable/edit"
+            android:padding="10dp"
+            android:layout_below="@id/ClientEmail"
+            android:id="@+id/ClientContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/credentials"
+            android:textSize="15sp"
+            android:drawableEnd="@drawable/edit"
+            android:layout_below="@id/ClientContacts"
+            android:padding="10dp"
+            android:text="@string/change_login_credentials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</ScrollView>

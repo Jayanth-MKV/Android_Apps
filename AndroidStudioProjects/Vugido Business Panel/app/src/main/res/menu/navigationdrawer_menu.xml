@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+
+            android:checked="true"
+            android:title="Dashboard"
+            android:id="@+id/nav_home"
+
+            />
+
+    </group>
+    <item
+
+        android:title="Manage Products">
+        <menu>
+            <item
+                android:icon="@drawable/store"
+                android:id="@+id/my_inventory"
+                android:title="My Inventory"
+                />
+            <item
+                android:icon="@drawable/add_icon"
+                android:id="@+id/add_new_product"
+                android:title="New Product"
+                />
+            <item
+                android:icon="@drawable/add_icon"
+                android:id="@+id/add_new_category"
+                android:title="New Sub Category "
+                />
+        </menu>
+    </item>
+
+
+    <item
+
+        android:title=" ">
+        <menu>
+            <item
+                android:icon="@drawable/logout"
+                android:id="@+id/log_out"
+                android:title="Logout "
+                />
+        </menu>
+    </item>
+
+
+</menu>

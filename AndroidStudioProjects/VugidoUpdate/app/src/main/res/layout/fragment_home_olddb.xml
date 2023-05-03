@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+       android:id="@+id/swipe_refresh_layout_home_fragment"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+
+       <androidx.core.widget.NestedScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <include
+                   android:id="@+id/mini_banner"
+                   layout="@layout/strip_ad_layout"/>
+
+
+               <include layout="@layout/categories_layout"/>
+               <!-- Call and WhatsApp orders -->
+
+               <include
+                   layout="@layout/call_whats_app_orders_layout"
+                   />
+
+
+               <include
+                   android:id="@+id/offers_banner"
+                   layout="@layout/slider"/>
+
+
+                <!-- Vegetables -->
+               <include
+                   android:visibility="gone"
+                   android:id="@+id/veg_layout"
+                   layout="@layout/vegetables_recycler_view"/>
+
+              <!-- Groceries -->
+
+               <include
+                   android:visibility="gone"
+                   android:id="@+id/groceries_layout"
+                   layout="@layout/groceries_recycler_view"/>
+
+               <!-- Non-Veg  -->
+               <include
+                   android:visibility="gone"
+                   android:id="@+id/non_veg_layout"
+                   layout="@layout/non_veg_recycler_view"/>
+
+               <!--  Fruits-->
+
+               <include
+
+                   android:visibility="gone"
+                   android:id="@+id/fruits_layout"
+                   layout="@layout/fruits_recycler_view_layout"/>
+
+              <!--  Foods -->
+
+               <include
+                   android:visibility="gone"
+                   android:id="@+id/food_layout"
+                   layout="@layout/foods_recycler_view_layout"/>
+
+               <include
+                   android:visibility="gone"
+                   android:id="@+id/dry_fruits"
+                   layout="@layout/dry_fruits_recycler_view"
+                   />
+               <include
+                   android:visibility="gone"
+                   android:id="@+id/dairy_products"
+                   layout="@layout/dairy_products_recycler_view"
+                   />
+               <include
+                   android:visibility="gone"
+                   android:id="@+id/tiffins"
+                   layout="@layout/tiffins_recycler_view"
+                   />
+
+
+
+
+
+
+                   <TextView
+
+                       android:id="@+id/vision_text_bottom"
+                       android:layout_marginTop="@dimen/_30sdp"
+                       android:paddingLeft="@dimen/_10sdp"
+                       android:paddingRight="@dimen/_10sdp"
+                       android:paddingBottom="@dimen/_30sdp"
+                       android:paddingTop="@dimen/_30sdp"
+                       android:background="@drawable/blue_gradient"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_horizontal"
+                       android:layout_marginBottom="@dimen/_4sdp"
+                       android:text="Every man who eats and drinks sees good in all his labour\n --For it is the gift of God (Ecc 3:13)"
+                       android:textAlignment="center"
+                       android:textColor="@color/colorAccent"
+                       android:textSize="@dimen/_15sdp"
+                       android:textStyle="italic" />
+
+
+
+
+           </LinearLayout>
+
+
+       </androidx.core.widget.NestedScrollView>
+
+   <!--   <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/home_recyclerView"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />-->
+
+
+
+   </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+  <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/swipe_refresh_layout_home_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/search" />-->
+
+
+
+  <!-- <com.google.android.material.card.MaterialCardView
+
+       android:elevation="@dimen/_5sdp"
+       android:layout_width="@dimen/_50sdp"
+       android:layout_height="@dimen/_50sdp"
+       android:layout_marginEnd="16dp"
+       android:layout_marginBottom="16dp"
+       app:cardCornerRadius="@dimen/_25sdp"
+       android:id="@+id/whats_app_icon"
+       app:layout_constraintBottom_toBottomOf="@+id/swipe_refresh_layout_home_fragment"
+       app:layout_constraintEnd_toEndOf="parent">
+
+      <ImageView
+          android:background="@color/float_transparent"
+          android:padding="@dimen/_5sdp"
+          android:scaleType="fitXY"
+          android:layout_width="@dimen/_50sdp"
+          android:layout_height="@dimen/_50sdp"
+          android:layout_marginEnd="16dp"
+          android:layout_marginBottom="16dp"
+          android:elevation="@dimen/_3sdp"
+          app:srcCompat="@drawable/whatsapp_icon" />
+
+
+   </com.google.android.material.card.MaterialCardView>-->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
