@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="colorPrimary">#ff007feb</color>
+    <color name="colorPrimaryDark">#ff007feb</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="black">#80000000</color>
+    <color name="themeBlue">#ff2699fb</color>
+    <color name="nav_blue_icon">#ff51adfc</color>
+    <color name="background_shimmer">#dddddd</color>
+    <color name="cart_row1">#ffbce0fd</color>
+    <color name="cart_row2">#ff92ccfd</color>
+    <color name="red">#F44336</color>
+
+
+   <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>-->
+
+    <color name="gradient_start_color">#6A9113</color>
+    <color name="gradient_end_color">#141517</color>
+
+ <!--<color name="gradient_start_color">#02aab0</color>
+ <color name="gradient_end_color">#00cdac</color>-->
+
+
+
+ <color name="colorPrimary"> 	#53b332</color>
+    <color name="colorPrimaryDark"> 	#53b332</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="black">#80000000</color>
+    <color name="themeBlue">#ff2699fb</color>
+    <color name="nav_blue_icon">#ff51adfc</color>
+    <color name="background_shimmer">#dddddd</color>
+    <color name="cart_row1">#9953b332</color>
+    <color name="cart_row2">#ff92ccfd</color>
+    <color name="red">#F44336</color>
+</resources>

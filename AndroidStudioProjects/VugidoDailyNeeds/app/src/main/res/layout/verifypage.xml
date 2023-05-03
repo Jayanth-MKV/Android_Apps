@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/verify_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/verify_your_phone"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/verify_text_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verify_text"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/enter_the_otp_sent_to_your_number"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:drawablePadding="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:drawableEnd="@drawable/editimage"
+        android:layout_below="@id/verify_text_otp"
+        android:id="@+id/phone_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_above="@id/firstPinView"
+        android:layout_below="@id/phone_number_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ResendButton"
+            style="@android:style/ButtonBar"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/edit"
+            android:layout_centerInParent="true"
+            android:text="@string/resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/_25sdp"
+            android:id="@+id/timer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+    <com.chaos.view.PinView
+        android:id="@+id/firstPinView"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:inputType="numberDecimal"
+        android:itemBackground="#ffffff"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:cursorVisible="true"
+        app:cursorColor="@color/colorPrimary"
+        app:cursorWidth="@dimen/_2sdp"
+        app:hideLineWhenFilled="true"
+        app:itemCount="4"
+        app:itemHeight="@dimen/_50sdp"
+        app:itemRadius="@dimen/_5sdp"
+        app:itemSpacing="@dimen/_2sdp"
+        app:itemWidth="@dimen/_50sdp"
+        app:lineColor="@color/colorPrimaryDark"
+        app:viewType="rectangle" />
+
+    <Button
+        android:textSize="@dimen/_15sdp"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="@dimen/_50sdp"
+        android:text="@string/verify"
+        android:textAlignment="center"
+        android:id="@+id/verify_button"
+        android:layout_below="@id/firstPinView"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

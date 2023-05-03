@@ -1,0 +1,395 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dailyneeds.vugido"
+4    android:versionCode="11"
+5    android:versionName="1.2.7" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:7:5-66
+11-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:7:22-63
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:8:5-79
+12-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:9:5-81
+13-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:10:5-67
+14-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:10:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:11:5-79
+15-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:10:5-76
+16-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:10:22-73
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\d39c006357da70af9f35da87d9137338\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\d39c006357da70af9f35da87d9137338\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\d39c006357da70af9f35da87d9137338\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\1f37368359b261149e166ab70fe7d8fd\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+22-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\1f37368359b261149e166ab70fe7d8fd\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+24-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+25
+26    <application
+26-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:13:5-122:19
+27        android:name="com.dailyneeds.vugido.app.CustomApplicationClass"
+27-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:15:9-72
+28        android:allowBackup="true"
+28-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:17:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\73bea0db4e541b08f67a4ed7275bada1\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@drawable/fl"
+31-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:18:9-36
+32        android:label="@string/app_name"
+32-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:19:9-41
+33        android:supportsRtl="true"
+33-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:20:9-35
+34        android:theme="@style/AppTheme"
+34-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:21:9-40
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:14:9-44
+36        <meta-data
+36-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:24:9-26:58
+37            android:name="android.app.default_searchable"
+37-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:25:13-58
+38            android:value=".activities.SearchActivity" />
+38-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:26:13-55
+39
+40        <service android:name="com.dailyneeds.vugido.receivers.MyFireBaseService" >
+40-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:28:9-33:19
+40-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:28:18-82
+41            <intent-filter>
+41-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:29:13-31:29
+42                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+42-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:30:17-78
+42-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:30:25-75
+43            </intent-filter>
+44        </service>
+45
+46        <meta-data
+46-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:34:9-35:36
+47            android:name="firebase_analytics_collection_deactivated"
+47-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:34:20-76
+48            android:value="true" />
+48-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:35:13-33
+49        <meta-data
+49-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:37:9-39:69
+50            android:name="com.google.android.gms.version"
+50-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:38:13-58
+51            android:value="@integer/google_play_services_version" />
+51-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:39:13-66
+52        <meta-data
+52-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:40:9-42:71
+53            android:name="com.google.android.geo.API_KEY"
+53-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:41:13-58
+54            android:value="AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU" />
+54-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:42:13-68
+55
+56        <activity
+56-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:43:9-57:20
+57            android:name="com.dailyneeds.vugido.activities.MainActivity"
+57-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:44:13-73
+58            android:screenOrientation="portrait" >
+58-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:45:13-49
+59            <intent-filter>
+59-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:50:9-54:25
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:51:13-65
+60-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:51:21-62
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:52:17-76
+62-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:52:27-73
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:58:9-66:20
+66            android:name="com.dailyneeds.vugido.activities.LoginActivity"
+66-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:58:19-80
+67            android:screenOrientation="portrait" >
+67-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:59:13-49
+68            <intent-filter>
+68-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:50:9-54:25
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:51:13-65
+69-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:51:21-62
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:52:17-76
+71-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:52:27-73
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:67:9-70:20
+75            android:name="com.dailyneeds.vugido.activities.VerifyPage"
+75-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:67:19-77
+76            android:screenOrientation="portrait" >
+76-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:68:13-49
+77        </activity>
+78        <activity
+78-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:71:9-73:51
+79            android:name="com.dailyneeds.vugido.activities.CartActivity"
+79-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:72:13-73
+80            android:screenOrientation="portrait" />
+80-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:73:13-49
+81        <activity
+81-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:74:9-84:20
+82            android:name="com.dailyneeds.vugido.activities.SplashScreen"
+82-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:76:13-73
+83            android:screenOrientation="portrait"
+83-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:77:13-49
+84            android:theme="@style/WhiteTheme" >
+84-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:75:13-46
+85            <intent-filter>
+85-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:78:13-82:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:51:13-65
+86-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:51:21-62
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:81:17-77
+88-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:81:27-74
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:85:9-87:75
+92            android:name="com.dailyneeds.vugido.activities.MapActivity"
+92-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:87:13-72
+93            android:screenOrientation="portrait" />
+93-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:86:13-49
+94        <activity
+94-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:88:9-90:72
+95            android:name="com.dailyneeds.vugido.activities.CheckOut"
+95-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:90:13-69
+96            android:screenOrientation="portrait" />
+96-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:89:13-49
+97        <activity
+97-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:91:9-93:78
+98            android:name="com.dailyneeds.vugido.activities.PaymentOptions"
+98-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:93:13-75
+99            android:screenOrientation="portrait" />
+99-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:92:13-49
+100        <activity
+100-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:94:9-97:84
+101            android:name="com.dailyneeds.vugido.activities.NetworkErrorActivity"
+101-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:97:13-81
+102            android:screenOrientation="portrait"
+102-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:96:13-49
+103            android:theme="@style/WhiteTheme" />
+103-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:95:13-46
+104        <activity
+104-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:98:9-99:51
+105            android:name="com.dailyneeds.vugido.activities.OrderPlacedAbstractInfo"
+105-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:98:19-90
+106            android:screenOrientation="portrait" />
+106-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:99:13-49
+107        <activity android:name="com.dailyneeds.vugido.activities.MyPurchasesDetailedActivity" />
+107-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:100:9-97
+107-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:100:19-94
+108        <activity
+108-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:101:9-102:51
+109            android:name="com.dailyneeds.vugido.activities.AboutUs"
+109-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:101:19-53
+110            android:screenOrientation="portrait" />
+110-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:102:13-49
+111        <activity
+111-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:103:9-104:51
+112            android:name="com.dailyneeds.vugido.activities.Intro_Activity"
+112-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:103:19-60
+113            android:screenOrientation="portrait" />
+113-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:104:13-49
+114        <activity
+114-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:105:9-106:51
+115            android:name="com.dailyneeds.vugido.activities.CategoryActivity"
+115-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:105:19-62
+116            android:screenOrientation="portrait" />
+116-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:106:13-49
+117        <activity
+117-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:107:9-120:20
+118            android:name="com.dailyneeds.vugido.activities.SearchActivity"
+118-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:107:19-60
+119            android:launchMode="singleTop"
+119-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:109:13-43
+120            android:screenOrientation="portrait" >
+120-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:108:13-49
+121            <intent-filter>
+121-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:110:13-113:29
+122                <action android:name="android.intent.action.SEARCH" />
+122-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:111:17-70
+122-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:111:25-68
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:52:17-76
+124-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:52:27-73
+125            </intent-filter>
+126
+127            <meta-data
+127-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:116:13-118:54
+128                android:name="android.app.searchable"
+128-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:117:17-54
+129                android:resource="@xml/searchable" />
+129-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:118:17-51
+130        </activity>
+131        <activity android:name="com.dailyneeds.vugido.activities.ShippingActivity" />
+131-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:121:9-65
+131-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:121:19-62
+132        <!-- Autocomplete -->
+133        <activity
+133-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:16:9-23:20
+134            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+134-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:17:13-91
+135            android:exported="false"
+135-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:18:13-37
+136            android:hardwareAccelerated="true"
+136-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:19:13-47
+137            android:label="@string/places_autocomplete_label"
+137-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:20:13-62
+138            android:theme="@style/PlacesAutocompleteThemeOverlay"
+138-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:21:13-66
+139            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+139-->[com.google.android.libraries.places:places:2.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\614a67d79cfb935207893c9ea11104e1\jetified-places-2.0.0\AndroidManifest.xml:22:13-71
+140        </activity> <!-- Needs to be explicitly declared on P+ -->
+141        <uses-library
+141-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\d39c006357da70af9f35da87d9137338\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+142            android:name="org.apache.http.legacy"
+142-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\d39c006357da70af9f35da87d9137338\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+143            android:required="false" />
+143-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\d39c006357da70af9f35da87d9137338\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+144        <!--
+145             FirebaseMessagingService performs security checks at runtime,
+146             but set to not exported to explicitly avoid allowing another app to call it.
+147        -->
+148        <service
+148-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\82a1fdb84fe3a58028fde6ae8d05fd3e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+149            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+149-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\82a1fdb84fe3a58028fde6ae8d05fd3e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+150            android:exported="false" >
+150-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\82a1fdb84fe3a58028fde6ae8d05fd3e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+151            <intent-filter android:priority="-500" >
+151-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:29:13-31:29
+152                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+152-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:30:17-78
+152-->C:\Users\91934\AndroidStudioProjects\VugidoDailyNeeds\app\src\main\AndroidManifest.xml:30:25-75
+153            </intent-filter>
+154        </service>
+155        <service
+155-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\1f37368359b261149e166ab70fe7d8fd\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
+156            android:name="com.google.firebase.components.ComponentDiscoveryService"
+156-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\1f37368359b261149e166ab70fe7d8fd\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:28:13-84
+157            android:exported="false" >
+157-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\1f37368359b261149e166ab70fe7d8fd\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:29:13-37
+158            <meta-data
+158-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\1f37368359b261149e166ab70fe7d8fd\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+159                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+159-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\1f37368359b261149e166ab70fe7d8fd\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\1f37368359b261149e166ab70fe7d8fd\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+162                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+162-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+164        </service>
+165
+166        <receiver
+166-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+167            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+167-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+168            android:exported="true"
+168-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+169            android:permission="com.google.android.c2dm.permission.SEND" >
+169-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+170            <intent-filter>
+170-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+171                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+171-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+171-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\af57966bf108d3a69798559fa4e34327\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+172            </intent-filter>
+173        </receiver>
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\db738fb165582721f85e07988be0ef2e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\db738fb165582721f85e07988be0ef2e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\db738fb165582721f85e07988be0ef2e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\db738fb165582721f85e07988be0ef2e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+179
+180        <provider
+180-->[com.google.firebase:firebase-common:19.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\065558ecddeaee65ff8d31b4a3f9c4c8\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+181            android:name="com.google.firebase.provider.FirebaseInitProvider"
+181-->[com.google.firebase:firebase-common:19.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\065558ecddeaee65ff8d31b4a3f9c4c8\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+182            android:authorities="com.dailyneeds.vugido.firebaseinitprovider"
+182-->[com.google.firebase:firebase-common:19.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\065558ecddeaee65ff8d31b4a3f9c4c8\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+183            android:exported="false"
+183-->[com.google.firebase:firebase-common:19.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\065558ecddeaee65ff8d31b4a3f9c4c8\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+184            android:initOrder="100" />
+184-->[com.google.firebase:firebase-common:19.0.0] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\065558ecddeaee65ff8d31b4a3f9c4c8\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+185
+186        <receiver
+186-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+187            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+187-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+188            android:enabled="true"
+188-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+189            android:exported="false" >
+189-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+190        </receiver>
+191        <receiver
+191-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+192            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+192-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+194            android:exported="true"
+194-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+195            android:permission="android.permission.INSTALL_PACKAGES" >
+195-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+196            <intent-filter>
+196-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+197                <action android:name="com.android.vending.INSTALL_REFERRER" />
+197-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+197-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+198            </intent-filter>
+199        </receiver>
+200
+201        <service
+201-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+202            android:name="com.google.android.gms.measurement.AppMeasurementService"
+202-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+203            android:enabled="true"
+203-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+204            android:exported="false" />
+204-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+205        <service
+205-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+206            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+206-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+209            android:permission="android.permission.BIND_JOB_SERVICE" />
+209-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\91934\.gradle\caches\transforms-2\files-2.1\b056fc9a90c8dff31c7f0278ea352873\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+210    </application>
+211
+212</manifest>

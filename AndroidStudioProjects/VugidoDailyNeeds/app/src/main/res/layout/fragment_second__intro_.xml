@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+   <ImageView
+       android:background="@color/colorAccent"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="centerCrop"
+       android:src="@mipmap/doodle"
+       android:contentDescription="@string/app_name" />
+
+   <ImageView
+       android:layout_centerInParent="true"
+       android:background="@mipmap/doodle"
+       android:padding="@dimen/_10sdp"
+       android:scaleType="fitCenter"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:alpha="0.9"
+       android:src="@drawable/get"
+       android:contentDescription="@string/app_name" />
+
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:scaleType="fitXY"
+        android:src="@drawable/green_low"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:textColor="#ff00ffc2"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Eat clean and green – Vegetables for a better life."/>-->
+
+
+
+</RelativeLayout>

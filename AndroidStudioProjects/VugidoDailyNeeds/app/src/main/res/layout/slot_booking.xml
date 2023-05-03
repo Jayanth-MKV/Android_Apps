@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/as"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/edit"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="@string/available_slots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_above="@id/slot_fix"
+        android:id="@+id/my_slots"
+        android:layout_below="@id/as"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:elevation="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/slot_fix"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/edit"
+        android:text="@string/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

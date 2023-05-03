@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:elevation="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_auto_image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/app_name"/>
+    <TextView
+        android:alpha="0.1"
+        android:textColor="@color/colorAccent"
+        android:background="@color/red"
+        android:textAlignment="center"
+        android:text="@string/coming_soon"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:id="@+id/cs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_15sdp"
+        android:id="@+id/tv_auto_image_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

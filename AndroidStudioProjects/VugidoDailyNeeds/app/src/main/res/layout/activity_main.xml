@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/navbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+       <!-- <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/main_coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/toolbar"
+            android:id="@+id/activity_toolbar"
+            >
+        </include>
+
+        <FrameLayout
+            android:layout_below="@id/activity_toolbar"
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+              <!--  <com.google.android.material.bottomappbar.BottomAppBar
+                    android:backgroundTint="@color/gradient_start_color"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/bottomAppBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    app:fabAlignmentMode="center"
+                    app:hideOnScroll="true"
+                    app:fabCradleRoundedCornerRadius="@dimen/_25sdp"
+                    app:buttonGravity="bottom|top"
+                    >
+                   <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+
+                            android:id="@+id/bottom_home"
+                            android:layout_weight="1"
+                            android:src="@drawable/home_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/app_name" />
+                       <ImageView
+                           android:id="@+id/bottom_TodayDeal"
+                           android:contentDescription="@string/app_name"
+                           android:layout_weight="1"
+                           android:src="@drawable/todays_deal"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+
+                        <ImageView
+                            android:contentDescription="@string/app_name"
+                            android:visibility="invisible"
+                            android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                       <ImageView
+                           android:id="@+id/bottom_wish"
+                           android:contentDescription="@string/app_name"
+                           android:layout_weight="1"
+                           android:src="@drawable/dashboard"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+
+                        <ImageView
+                            android:id="@+id/bottom_categories"
+                            android:contentDescription="@string/app_name"
+                            android:layout_weight="1"
+                        android:src="@drawable/person"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/voiceSearch"
+                    android:src="@drawable/search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fabSize="normal"
+                    android:backgroundTint="@color/gradient_start_color"
+                    app:layout_anchor="@id/bottomAppBar" />
+
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_items_action"
+        app:headerLayout="@layout/nav_header"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/green_gradient"
+        android:layout_gravity="start"
+        app:itemIconTint="@color/colorAccent"
+        app:itemTextColor="@color/colorAccent"
+        app:menu="@menu/navigationdrawer_menu"
+        >
+        <ScrollView
+            android:background="@drawable/edit"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+              <!--  <Button
+                    android:id="@+id/login"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/colorAccent"
+                    android:textAllCaps="false"
+                    android:text="@string/logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+-->
+
+        </ScrollView>
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

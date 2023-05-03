@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorAccent"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:text="@string/my_cart"
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/cart_empty_layout"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:id="@+id/empty_cart"
+            android:text="@string/cart_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:textAllCaps="false"
+            android:elevation="10dp"
+            android:text="@string/add_something"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:layout_margin="20dp"
+            android:layout_below="@id/empty_cart"
+            android:id="@+id/backToMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_above="@id/cartInfo"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/cart_item_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+    <androidx.cardview.widget.CardView
+
+        android:elevation="50dp"
+        android:id="@+id/cartInfo"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/totalCartBill"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/excluding_delivery_charges"
+                    android:id="@+id/hintDCharges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+           <!-- <LinearLayout
+                android:padding="5dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp">
+                <TextView
+                    android:id="@+id/Price"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/cutOffPrice"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="italic"
+                    android:textColor="@color/red"
+                    android:text="@string/excluding_delivery_charges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>-->
+            <TextView
+                android:id="@+id/Price"
+                android:padding="20dp"
+                android:background="@drawable/edit"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"/>
+
+        </LinearLayout>
+
+        <Button
+
+            android:background="@drawable/button"
+            android:id="@+id/cartContinueButton"
+            android:textColor="@color/colorAccent"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/continue_"
+            android:layout_below="@id/totalCartBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

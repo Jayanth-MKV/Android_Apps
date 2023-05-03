@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/order_empty_layout"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:id="@+id/empty_cart"
+            android:text="@string/nothing_on_the_way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:textAllCaps="false"
+            android:elevation="10dp"
+            android:text="@string/add_something"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:layout_margin="20dp"
+            android:layout_below="@id/empty_cart"
+            android:id="@+id/to_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/orderInfo_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/msg"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:background="@drawable/edit"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="@string/first_starting_1km_we_charge_rs_15_rest_of_the_charges_will_be_rs_5_per_km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_margin="1dp"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/d_text"
+            android:textStyle="bold"
+            android:text="@string/distance"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/D"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="1dp"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dc_text"
+            android:textStyle="bold"
+            android:text="@string/delivery_charges"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/DC"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/close"
+        android:background="@drawable/edit"
+        android:text="@string/drawer_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

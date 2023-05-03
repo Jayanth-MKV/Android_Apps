@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="2dp"
+        android:id="@+id/msg"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="@string/re_verify_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_margin="1dp"
+            android:id="@+id/d_text"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/it_is_probably_another_account_with_same_mobile_number_logged_in"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    <Button
+        android:elevation="5dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/re_verify"
+        android:background="@drawable/edit"
+        android:text="@string/verify_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

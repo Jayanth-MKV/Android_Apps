@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/home_icon"
+            android:checked="true"
+            android:title="Home"
+            android:id="@+id/nav_home"
+
+            />
+        <item
+            android:icon="@drawable/orders"
+            android:title="Your Orders"
+            android:id="@+id/nav_orders"
+
+            />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share_icon"
+            android:title="Refer and Earn"
+
+            />
+
+        <item
+
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback_icon"
+            android:title="Feedback"
+
+            />
+
+        <item
+            android:icon="@drawable/priv"
+            android:title="Privacy Policy"
+            android:id="@+id/nav_privacy"
+
+            />
+        <item
+            android:icon="@drawable/terms_icon"
+            android:title="Terms and Conditions"
+            android:id="@+id/nav_tc"
+
+            />
+<!--        <item-->
+<!--            android:icon="@drawable/share_icon"-->
+<!--            android:title="Tell Your friends"-->
+<!--            android:id="@+id/nav_share"-->
+
+<!--            />-->
+
+        <item
+            android:icon="@drawable/contact_us_icon"
+            android:id="@+id/nav_contact"
+            android:title="Contact Us"
+
+            />
+        <item
+            android:icon="@drawable/about_us_icon"
+            android:id="@+id/nav_about_us"
+            android:title="About Us"
+
+            />
+
+    </group>
+<!--    <item-->
+
+<!--        android:title="Manage Products">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:icon="@drawable/store"-->
+<!--                android:id="@+id/my_inventory"-->
+<!--                android:title="My Inventory"-->
+<!--                />-->
+<!--            <item-->
+<!--                android:icon="@drawable/add_icon"-->
+<!--                android:id="@+id/add_new_product"-->
+<!--                android:title="New Product"-->
+<!--                />-->
+<!--            <item-->
+<!--                android:icon="@drawable/add_icon"-->
+<!--                android:id="@+id/add_new_category"-->
+<!--                android:title="New Sub Category "-->
+<!--                />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+
+    <item
+
+        android:title=" ">
+        <menu>
+            <item
+                android:icon="@drawable/logout_icon"
+                android:id="@+id/log_out"
+                android:title="Logout "
+                />
+        </menu>
+    </item>
+
+
+</menu>

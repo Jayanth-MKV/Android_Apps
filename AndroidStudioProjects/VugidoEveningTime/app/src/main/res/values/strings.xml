@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vugido Food-Hub</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="your_orders">Your Orders</string>
+    <string name="account">Account</string>
+
+
+    <string name="permission_rationale_location">Access to the location service is required to  show your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="api_key">AIzaSyA-0cyH6MAzjr6AMsVsm7apTmxIjJI8L5E</string>
+
+    <string name="mapbox_access_token">pk.eyJ1IjoidnVyamFuYSIsImEiOiJja2xhcDd3bmswenRoMnBuMDBkNWVsM3F0In0.neW5j5BqNht2CoQXz121dw</string>
+    <string name="categories">Categories</string>
+    <string name="orders">Orders</string>
+    <string name="cart">Cart</string>
+    <string name="whatsapp">Whatsapp</string>
+
+    <!--    sk.eyJ1IjoidnVyamFuYSIsImEiOiJja2xhcHIyNWowenJxMnJuMDNjbTlhbThjIn0.T-nZ8Pk60IjuOXGrHpyjqw-->
+
+</resources>

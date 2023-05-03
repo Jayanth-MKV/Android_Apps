@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    app:behavior_peekHeight="@dimen/_250sdp"
+
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:textSize="@dimen/_15sdp"
+            android:textAlignment="center"
+            android:elevation="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:padding="@dimen/_10sdp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/gradient_start_color"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:id="@+id/SlotBottomButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+
+            android:id="@+id/slot_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select One Time Slot"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:id="@+id/SlotRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:buttonTint="@color/colorAccent"
+                    android:id="@+id/today_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Today" />
+
+                <RadioButton
+                    android:buttonTint="@color/colorAccent"
+                    android:id="@+id/tommorow_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tommorow" />
+            </RadioGroup>
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/BottomSlotRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

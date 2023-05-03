@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Vugido DailyNeeds</string>
+    <string name="login">Log In</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="verify_your_phone">Verify Your Phone</string>
+    <string name="enter_the_otp_sent_to_your_number">Enter the otp sent to your number</string>
+    <string name="verify">Verify</string>
+    <string name="drawer_close">close</string>
+    <string name="drawer_open">open</string>
+    <string name="search">search</string>
+    <string name="cart">Cart</string>
+    <string name="home">Home</string>
+    <string name="my_orders">On The Way</string>
+    <string name="offers">Offers</string>
+    <string name="payments">Payments</string>
+    <string name="my_purchases">My Purchases</string>
+    <string name="share_app">Share App</string>
+    <string name="season_special">Season Special</string>
+    <string name="veg_market">Veg-Market</string>
+    <string name="non_veg_market">Non-Veg Market</string>
+    <string name="fruits_market">Fruits Market</string>
+    <string name="groceries">Groceries</string>
+    <string name="dry_fruits">Dry-Fruits</string>
+    <string name="your_name">Your Name</string>
+    <string name="search_products">Search by veg, fruits, etc</string>
+    <string name="cancel">cancel</string>
+    <string name="to_cart">To-Cart</string>
+    <string name="my_cart">My-Cart</string>
+    <string name="total">TOTAL</string>
+    <string name="continue_">Continue</string>
+    <string name="excluding_delivery_charges">excluding delivery charges</string>
+    <string name="tap_on_map_to_select_location">Tap On Map to select location</string>
+    <string name="proceed">Proceed</string>
+    <string name="manually_enter_your_location">Manually enter your Location</string>
+    <string name="checkout_cart">CheckOut Cart</string>
+    <string name="total_items">Total Items</string>
+    <string name="review">Review</string>
+    <string name="total_price">Total Price</string>
+    <string name="pay">Pay</string>
+    <string name="edit">Edit</string>
+    <string name="choose_pay_option">Choose Pay Option</string>
+    <string name="more_pay_methods_will_arrive_soon">more pay methods will arrive soon !</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="are_you_sure_want_to_place_order">Are you sure want to place order ?</string>
+    <string name="place_order">Place Order</string>
+    <string name="logout">Logout</string>
+    <string name="purchases">My Purchases</string>
+    <string name="about_us">About Us</string>
+    <string name="accept_our_tc_and_privacy_policy">Accept our <u>TC</u> and<u> Privacy Policy</u></string>
+    <string name="resend">Resend</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="call_helpline">Call Helpline</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="quantity">Quantity</string>
+    <string name="units">Units</string>
+    <string name="size">Size</string>
+    <string name="please_update_your_app_to_use">Please Update your app to use</string>
+    <string name="update_now">Update Now</string>
+    <string name="starts_on_9th_oct_19">Starts On 9th Oct 19</string>
+    <string name="_168_00_00">168:00:00</string>
+    <string name="service_starts_from">Service Starts From</string>
+    <string name="currently_unavailable">Currently UnAvailable</string>
+    <string name="ok">Ok</string>
+    <string name="cart_empty">Cart Empty</string>
+    <string name="add_something">Add Something</string>
+
+
+
+
+
+    <!-- permissions -->
+
+    <string name="permission_rationale_location">Access to the location service is required to  show your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="api_key">AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU</string>
+    <string name="delivery_charges">Delivery Charges</string>
+    <string name="total_bill">Total Bill</string>
+    <string name="id">ID</string>
+    <string name="on">On</string>
+    <string name="see_items">See Items</string>
+    <string name="order_status">Order Status</string>
+    <string name="items_price">Items Price</string>
+    <string name="you_pay">You Pay</string>
+    <string name="your_ordered_items">Your Ordered Items</string>
+    <string name="nothing_on_the_way">Nothing On The Way</string>
+    <string name="you_have_no_purchases">You Have No Purchases</string>
+    <string name="purchase_details">Purchase Details</string>
+    <string name="no_serice">No Service</string>
+    <string name="we_r_not_yet_at_this_location">We\'r not yet at this Location</string>
+    <string name="express_delivery">Express Delivery [ starts at Rs.15/- ]</string>
+    <string name="select_time_slot">Select Time Slot [ Rs.10/- ]</string>
+    <string name="select_delivery_type">Select Delivery Type :</string>
+    <string name="available_slots">Available Slots</string>
+    <string name="morning_slots">Morning Slots</string>
+    <string name="_5_00_am_6_00_am">5:00 am - 6:00 am</string>
+    <string name="_6_00_am_7_00_am">6:00 am - 7:00 am</string>
+    <string name="_7_00_am_8_00_am">7:00 am - 8:00 am</string>
+    <string name="_8_00_am_9_00_am">8:00 am - 9:00 am</string>
+    <string name="_9_00_am_10_00_am">9:00 am - 10:00 am</string>
+    <string name="_10_00_am_11_00_am">10:00 am - 11:00 am</string>
+    <string name="_11_00am_12_00_pm">11:00am - 12:00 pm</string>
+    <string name="afternoon_slots">Afternoon Slots</string>
+    <string name="_12_00pm_1_00pm">12:00pm - 1:00pm</string>
+    <string name="_1_00_pm_2_00_pm">1:00 pm - 2:00 pm</string>
+    <string name="_2_00_pm_3_00_pm">2:00 pm - 3:00 pm</string>
+    <string name="_3_00_pm_4_00_pm">3:00 pm - 4:00 pm</string>
+    <string name="evening_slots">Evening Slots</string>
+    <string name="_4_00_pm_5_00_pm">4:00 pm - 5:00 pm</string>
+    <string name="_5_00_pm_6_00_pm">5:00 pm - 6:00 pm</string>
+    <string name="night_slots">Night Slots</string>
+    <string name="_6_00_pm_7_00_pm">6:00 pm - 7:00 pm</string>
+    <string name="_7_00_pm_8_00_pm">7:00 pm - 8:00 pm</string>
+    <string name="_8_00_pm_9_00pm">8:00 pm - 9:00pm</string>
+    <string name="ten_rupees">Rs.10/-</string>
+    <string name="first_starting_1km_we_charge_rs_15_rest_of_the_charges_will_be_rs_5_per_km">First starting 1km we charge Rs.15/- rest of the charges will be Rs.5/- per Km</string>
+    <string name="distance">Distance</string>
+    <string name="select_delivery_mode">Select Delivery mode</string>
+    <string name="change_loc">Change Location To Proceed</string>
+    <string name="t_a_s">Tomorrow Available Slots</string>
+    <string name="tod_a_s">Today Available Slots</string>
+    <string name="e_d_n">Express Delivery Not Available Between 9:00pm - 5:00 am</string>
+
+
+
+
+
+    <string name="lorem">Why do you need those flags in the first place? Well, when you want to have expandable Toolbar, Floating Action Button and a content to scroll over, the best option would be to put them into CoordinatorLayout and use its facilities in order to customize the behavior of each of those components. CoordinatorLayout bounds the behavior of a few views together. It makes them work as a whole — smooth and natural. You just need to put Toolbar into the AppBarLayout, which is a special version of a LinearLayout with a scrolling gestures,
+        and put a content into NestedScrollView which then
+    Why do you need those flags in the first place? Well, when you want to have expandable Toolbar, Floating Action Button and a content to scroll over, the best option would be to put them into CoordinatorLayout and use its facilities in order to customize the behavior of each of those components. CoordinatorLayout bounds the behavior of a few views together. It makes them work as a whole — smooth and natural. You just need to put Toolbar into the AppBarLayout, which is a special version of a LinearLayout with a scrolling gestures, and put a content into NestedScrollView which then
+    Why do you need those flags in the first place? Well, when you want to have expandable Toolbar, Floating Action Button and a content to scroll over, the best option would be to put them into CoordinatorLayout and use its facilities in order to customize the behavior of each of those components. CoordinatorLayout bounds the behavior of a few views together. It makes them work as a whole — smooth and natural. You just need to put Toolbar into the AppBarLayout, which is a special version of a LinearLayout with a scrolling gestures, and put a content into NestedScrollView which then
+    </string>
+    <string name="service_open_hours">Service Open Hours</string>
+    <string name="days">Days</string>
+    <string name="timings">Timings</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="all_day_24_7_hrs">All Day 24/7 hrs</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="services_after_6_00pm">Services starts after 6:00pm</string>
+    <string name="all_day_till_6_00_pm">All day till 6:00 pm</string>
+    <string name="service_stops_after_6_00pm">Service stops after 6:00pm</string>
+    <string name="your_feedback">Your FeedBack</string>
+    <string name="delivery_mode">Delivery Mode</string>
+    <string name="e_d_20min">Express Delivery with 20 min</string>
+    <string name="order_processed_successfully">Order Processed Successfully</string>
+    <string name="re_verify_account">Re-Verify Account</string>
+    <string name="it_is_probably_another_account_with_same_mobile_number_logged_in">It is probably another account with same mobile number logged in.</string>
+    <string name="verify_now">Verify Now</string>
+    <string name="email_us_feedback">Email Us Feedback</string>
+    <string name="friday_5_00_pm_saturday_6_00_pm">Friday 5:00 pm - Saturday 6:00 pm</string>
+    <string name="no_services_between">No Services Between</string>
+    <string name="categories">Categories</string>
+    <string name="todays_s_deal">Todays\'s Deal</string>
+    <string name="wish_list">Wish List</string>
+    <string name="settings">Settings</string>
+    <string name="rate_us">Rate Us</string>
+
+
+
+
+    <!-- voice strings..  -->
+
+    <string name="voice_not_supp">Voice search is not supported for your device</string>
+    <string name="ask_vugi">Ask Vugi to any products.</string>
+    <string name="start_typing">Start Typing</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="door_n_o_office_company">Door N.O/ Office / Company</string>
+    <string name="address_line_1_street_name">Address Line 1/ Street Name</string>
+    <string name="address_line_2_street_name_optional">Address Line 2/ Street Name (Optional)</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city_town">City / Town</string>
+    <string name="pin_code_zip_code">Pin-Code/Zip-code</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="remove">Remove</string>
+    <string name="save_for_later">Save For Later</string>
+    <string name="available_in_between_12_00_pm_3_00pm_and_6_00pm_9_00pm">Available in between 12:00 pm - 3:00pm and 6:00pm- 9:00pm</string>
+</resources>

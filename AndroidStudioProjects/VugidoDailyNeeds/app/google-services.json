@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "334028506547",
+    "firebase_url": "https://vugidodailyneeds.firebaseio.com",
+    "project_id": "vugidodailyneeds",
+    "storage_bucket": "vugidodailyneeds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334028506547:android:20d62ef237e529253f37c6",
+        "android_client_info": {
+          "package_name": "com.dailyneeds.vugido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334028506547-i2gcjbmk9aphp2ql4idv0vor6p2hrobd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dailyneeds.vugido",
+            "certificate_hash": "4aa94d2b435a0b634b818833d282175b9457b66f"
+          }
+        },
+        {
+          "client_id": "334028506547-eig4silrqq72t92gtigal8m883no74sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBkJm1lRCV7zl5GbVicT3SudaWW1qsiWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334028506547-eig4silrqq72t92gtigal8m883no74sn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

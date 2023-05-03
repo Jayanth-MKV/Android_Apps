@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:layout_above="@id/selected_location_info"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/location_map_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageButton
+        android:padding="10dp"
+        android:background="@drawable/edit"
+        android:id="@+id/myLocationButton"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:layout_above="@id/tap"
+        android:src="@drawable/my_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name" />
+    <TextView
+        android:id="@+id/tap"
+        android:drawablePadding="5dp"
+        android:background="#90ffffff"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_alignBottom="@id/location_map_fragment"
+        android:text="@string/tap_on_map_to_select_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:elevation="20dp"
+        android:contentDescription="@string/search"
+        android:background="@color/colorAccent"
+        android:layout_margin="7dp"
+        android:padding="15dp"
+        android:src="@drawable/search_blue"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/location_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+    <LinearLayout
+        android:background="@drawable/edit"
+        android:layout_above="@id/location_submit"
+        android:padding="5dp"
+        android:id="@+id/selected_location_info"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <pl.bclogic.pulsator4droid.library.PulsatorLayout
+            android:layout_gravity="center_vertical"
+            android:id="@+id/pulsator"
+            app:pulse_count="2"
+            app:pulse_duration="2000"
+            app:pulse_repeat="0"
+            app:pulse_color="#4CAF50"
+            app:pulse_startFromScratch="true"
+            app:pulse_interpolator="Linear"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+        <TextView
+            android:id="@+id/userSelectLocation"
+            android:layout_gravity="center_vertical"
+            android:text="xgwidqgo nhoinoi ihdiwuid oiwpui whxpwh wnpewho pewhepw pewwhp pwhepepwhep pwepwe ephweh wphe"
+            android:textSize="12sp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+  <!--  <TextView
+        android:layout_above="@id/location_submit"
+        android:text="@string/manually_enter_your_location"
+        android:id="@+id/manual_location"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/edit_location_blue"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+    <Button
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:text="@string/proceed"
+        android:id="@+id/location_submit"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

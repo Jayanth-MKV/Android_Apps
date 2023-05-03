@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/veg"
+        android:id="@+id/timerImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/timer_linear_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <TextView
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:textColor="@color/red"
+          android:padding="15dp"
+          android:layout_gravity="end"
+          android:text="@string/starts_on_9th_oct_19"
+          android:id="@+id/startText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:id="@+id/main_time_left"
+          android:background="@color/colorAccent"
+          android:text="@string/_168_00_00"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          android:textColor="@color/red"
+          android:padding="15dp"
+          android:layout_gravity="end"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/timerImage"
+        android:id="@+id/veg_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+  </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>
