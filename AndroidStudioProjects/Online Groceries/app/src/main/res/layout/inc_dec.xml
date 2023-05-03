@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:elevation="@dimen/_10sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:padding="@dimen/_5sdp"
+        android:background="@color/colorAccent"
+        android:src="@drawable/remove"
+        android:id="@+id/dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/add"
+        android:background="@color/colorAccent"
+        android:id="@+id/inc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:background="@color/colorAccent"
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/gradient_start_color"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/dec"
+        app:layout_constraintEnd_toStartOf="@+id/inc"
+        app:layout_constraintStart_toEndOf="@+id/dec"
+        app:layout_constraintTop_toTopOf="@+id/dec" />
+</androidx.constraintlayout.widget.ConstraintLayout>
