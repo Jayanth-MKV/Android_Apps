@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<!--    <include-->
+<!--        android:id="@+id/q_activity_toolbar"-->
+<!--        layout="@layout/bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:padding="@dimen/_8sdp"
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/gradient_start_color"
+        android:text="JNTUK-UCEV \nCOLLEGE OF ENGINEERING,VIZIANAGARAM"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#fff"
+        android:elevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+        <RelativeLayout
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/student_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                app:boxCornerRadiusBottomEnd="@dimen/_10sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+                app:boxCornerRadiusTopStart="@dimen/_10sdp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="Login Username"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_15sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/student_mobile"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_name"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                app:boxCornerRadiusBottomEnd="@dimen/_10sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+                app:boxCornerRadiusTopStart="@dimen/_10sdp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="Login Password"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_15sdp" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/prompt_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_mobile"
+                android:gravity="center_horizontal"
+                android:text="Please find credentials in your mailbox"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prompt_otp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/blue_gradient"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="#fff" />
+            <!--            <TextView-->
+            <!--                android:padding="@dimen/_10sdp"-->
+            <!--                android:layout_centerHorizontal="true"-->
+            <!--                android:layout_below="@id/button"-->
+            <!--                android:id="@+id/SignUp"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Not Registered ! Register Now"-->
+            <!--                />-->
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/gradient_start_color"
+        android:textSize="@dimen/_15sdp"
+        android:textAlignment="center"
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOMES YOU TO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/gradient_start_color"
+        android:textSize="@dimen/_15sdp"
+        android:textAlignment="center"
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEGACY GEEKS ONLINE QUIZ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="@dimen/_15sdp"
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

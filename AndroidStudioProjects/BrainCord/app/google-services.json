@@ -1,0 +1,205 @@
+{
+  "project_info": {
+    "project_number": "317968390986",
+    "firebase_url": "https://vugido.firebaseio.com",
+    "project_id": "vugido",
+    "storage_bucket": "vugido.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:cb944fac0577e1aa24ffb3",
+        "android_client_info": {
+          "package_name": "com.foodhub.vugido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317968390986-65iknup3mfi3h4l0gq5r3u65e9oe7vhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodhub.vugido",
+            "certificate_hash": "247bd6e1d884d43e6c5ff039545196cb279faad8"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB6kTyuJdHFMbEfL59YqOAaGqSCj48OjA"
+        },
+        {
+          "current_key": "AIzaSyA-0cyH6MAzjr6AMsVsm7apTmxIjJI8L5E"
+        },
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:6358eea0c75bbf9324ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido.brain_cord"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB6kTyuJdHFMbEfL59YqOAaGqSCj48OjA"
+        },
+        {
+          "current_key": "AIzaSyA-0cyH6MAzjr6AMsVsm7apTmxIjJI8L5E"
+        },
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:353256627d65267324ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido.com.vugidoeats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB6kTyuJdHFMbEfL59YqOAaGqSCj48OjA"
+        },
+        {
+          "current_key": "AIzaSyA-0cyH6MAzjr6AMsVsm7apTmxIjJI8L5E"
+        },
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:8bb8a0c469882f2824ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido.foodhub.vdexecutives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317968390986-jf6fp6tfnat69962cg74reic1210stvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vugido.foodhub.vdexecutives",
+            "certificate_hash": "247bd6e1d884d43e6c5ff039545196cb279faad8"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB6kTyuJdHFMbEfL59YqOAaGqSCj48OjA"
+        },
+        {
+          "current_key": "AIzaSyA-0cyH6MAzjr6AMsVsm7apTmxIjJI8L5E"
+        },
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:c976d4f3f194309724ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido.homeservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317968390986-fufco3mrh16h5lhdkmjgaeiuv1g4gob6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vugido.homeservices",
+            "certificate_hash": "42dac795e49b19868c76f9d406d4488eb80f7949"
+          }
+        },
+        {
+          "client_id": "317968390986-ghlgd0japgmt09i2or0bukpdiacul5kp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vugido.homeservices",
+            "certificate_hash": "247bd6e1d884d43e6c5ff039545196cb279faad8"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB6kTyuJdHFMbEfL59YqOAaGqSCj48OjA"
+        },
+        {
+          "current_key": "AIzaSyA-0cyH6MAzjr6AMsVsm7apTmxIjJI8L5E"
+        },
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317968390986:android:252e34322f14867424ffb3",
+        "android_client_info": {
+          "package_name": "com.vugido.info.homeservicesadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317968390986-u3vbjemfef34mqqk76gkgnc283vmempv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vugido.info.homeservicesadmin",
+            "certificate_hash": "247bd6e1d884d43e6c5ff039545196cb279faad8"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB6kTyuJdHFMbEfL59YqOAaGqSCj48OjA"
+        },
+        {
+          "current_key": "AIzaSyA-0cyH6MAzjr6AMsVsm7apTmxIjJI8L5E"
+        },
+        {
+          "current_key": "AIzaSyAFAKqMAsXj19sHk6YCJRW-28sLRd4dwdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

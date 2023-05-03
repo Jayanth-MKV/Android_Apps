@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@+id/qg_activity_toolbar"
+        layout="@layout/bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qg_activity_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--            <TextView-->
+<!--                android:layout_margin="@dimen/_3sdp"-->
+<!--                android:padding="@dimen/_5sdp"-->
+<!--                android:textColor="@color/gradient_start_color"-->
+<!--                android:textSize="@dimen/_15sdp"-->
+<!--                android:text="Quiz Instructions"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/lgeeks" />
+
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:textColor="@color/gradient_start_color"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:text="Quiz consists of 3 sections:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:background="@color/gradient_start_color"
+                android:layout_margin="@dimen/_3sdp"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_15sdp"
+                android:text="Section 1:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:drawableStart="@drawable/f_arrow"
+
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/gradient_start_color"
+                android:textSize="@dimen/_15sdp"
+                android:text="Questions : 25\nTime Limit : 30min "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@color/gradient_start_color"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_15sdp"
+                android:text="Section 2:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:drawableStart="@drawable/f_arrow"
+
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/gradient_start_color"
+                android:textSize="@dimen/_15sdp"
+                android:text="Questions : 9\nTime Limit : 15min "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@color/gradient_start_color"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_15sdp"
+                android:text="Section 3:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:drawableStart="@drawable/f_arrow"
+
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/gradient_start_color"
+                android:textSize="@dimen/_15sdp"
+                android:text="Questions : 10\nTime Limit : 10min "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@color/gradient_start_color"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_15sdp"
+                android:text="Further Instructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:drawableStart="@drawable/f_arrow"
+
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/gradient_start_color"
+                android:textSize="@dimen/_15sdp"
+                android:text="In case of attempting multiple logins, you will be dis-qualified."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="@dimen/_3sdp"
+                android:drawableStart="@drawable/f_arrow"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/gradient_start_color"
+                android:textSize="@dimen/_15sdp"
+                android:text="Once you proceed to next question you can not come back to previous one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="I read all instructions and Accept all terms and conditions"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:background="@drawable/blue_gradient"
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

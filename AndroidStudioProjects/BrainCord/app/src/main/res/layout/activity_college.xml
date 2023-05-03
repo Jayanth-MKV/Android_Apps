@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="#fff"
+        android:elevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/_18sdp"
+                android:id="@+id/rss"
+                android:textColor="#FF9800"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:text="Rate Quiz Interface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RatingBar
+                android:rating="3"
+                android:layout_below="@id/rss"
+                android:numStars="5"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/ra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/student_mobile"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ra"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                app:boxCornerRadiusBottomEnd="@dimen/_10sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+                app:boxCornerRadiusTopStart="@dimen/_10sdp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:focusable="true"
+                    android:hint="FeedBack"
+                    android:inputType="text"
+                    android:textSize="@dimen/_15sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_mobile"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/btn_gradient_style"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+
+                />
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:textColor="@color/gradient_start_color"
+        android:padding="@dimen/_5sdp"
+        android:textSize="@dimen/_18sdp"
+        android:textAlignment="center"
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="@color/red"
+        android:textSize="@dimen/_15sdp"
+        android:padding="@dimen/_5sdp"
+        android:textAlignment="center"
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

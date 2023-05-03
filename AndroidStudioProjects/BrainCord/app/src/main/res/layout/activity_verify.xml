@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/colorAccent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/verify_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gradient_start_color"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verifying Your Contact"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/otp_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:text="Waiting for OTP sent to"
+        android:textAlignment="center"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verify_toolbar"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/mobile_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="+91 9346834541"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otp_text" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobile_number"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/_15sdp"
+        android:text="2:00"
+        android:textColor="@color/red"
+        android:textSize="@dimen/_25sdp"
+        app:layout_constraintBottom_toTopOf="@+id/firstPinView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile_number" />
+
+    <com.chaos.view.PinView
+        android:id="@+id/firstPinView"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timer"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:cursorVisible="true"
+        android:inputType="number"
+        android:itemBackground="#ffffff"
+        android:textColor="@color/gradient_start_color"
+        android:textStyle="bold"
+        app:cursorColor="@color/gradient_start_color"
+        app:cursorWidth="@dimen/_2sdp"
+        app:hideLineWhenFilled="true"
+        app:itemCount="6"
+
+        app:itemRadius="@dimen/_5sdp"
+        app:itemSpacing="@dimen/_2sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile_number"
+        app:lineColor="@color/gradient_start_color"
+        app:viewType="rectangle" />
+
+    <Button
+        android:id="@+id/verify_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstPinView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_gradient_style"
+        android:padding="@dimen/_10sdp"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstPinView" />
+
+    <Button
+        android:visibility="invisible"
+        android:textAllCaps="false"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/colorAccent"
+        android:backgroundTint="@color/red"
+        android:id="@+id/resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend"
+        app:layout_constraintBottom_toTopOf="@+id/firstPinView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile_number" />
+
+    <!-- <include
+          android:id="@+id/my_progress"
+          layout="@layout/activity_progress"/>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

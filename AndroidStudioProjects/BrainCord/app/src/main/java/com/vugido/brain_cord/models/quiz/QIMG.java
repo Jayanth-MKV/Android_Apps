@@ -1,0 +1,97 @@
+package com.vugido.brain_cord.models.quiz;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class QIMG{
+
+	@JsonProperty("Q")
+	private String Q;
+
+	@JsonProperty("O1")
+	private String o1;
+
+	@JsonProperty("O2")
+	private String o2;
+
+	@JsonProperty("Q_IMG")
+	private String qIMG;
+
+	@JsonProperty("O3")
+	private String o3;
+
+	@JsonProperty("O4")
+	private String o4;
+
+	@JsonProperty("ID")
+	private int iD;
+
+	public void setQ(String Q){
+		this.Q = Q;
+	}
+
+	public String getQ(){
+		return Q;
+	}
+
+	public void setO1(String o1){
+		this.o1 = o1;
+	}
+
+	public String getO1(){
+		return o1;
+	}
+
+	public void setO2(String o2){
+		this.o2 = o2;
+	}
+
+	public String getO2(){
+		return o2;
+	}
+
+	public void setQIMG(String qIMG){
+		this.qIMG = qIMG;
+	}
+
+	public String getQIMG(){
+		return qIMG;
+	}
+
+	public void setO3(String o3){
+		this.o3 = o3;
+	}
+
+	public String getO3(){
+		return o3;
+	}
+
+	public void setO4(String o4){
+		this.o4 = o4;
+	}
+
+	public String getO4(){
+		return o4;
+	}
+
+	public void setID(int iD){
+		this.iD = iD;
+	}
+
+	public int getID(){
+		return iD;
+	}
+
+	@Override
+ 	public String toString(){
+		return 
+			"QIMG{" + 
+			"Q = '" + Q + '\'' + 
+			",o1 = '" + o1 + '\'' + 
+			",o2 = '" + o2 + '\'' + 
+			",q_IMG = '" + qIMG + '\'' + 
+			",o3 = '" + o3 + '\'' + 
+			",o4 = '" + o4 + '\'' + 
+			",iD = '" + iD + '\'' + 
+			"}";
+		}
+}
