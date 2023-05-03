@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Vugido Food-Hub</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="textview">TextView</string>
+    <string name="login">Login</string>
+    <string name="student_name">Your Name</string>
+    <string name="student_email_id">Email-Id (Optional)</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="sign_up">Sign-Up</string>
+    <string name="already_have_account_login">Already have account? Login</string>
+    <string name="no_account_sign_up_now">No Account ? Sign Up Now</string>
+    <string name="please_enter_otp_sent_to">Please enter OTP sent to</string>
+    <string name="verify">Verify</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="cart">Cart</string>
+    <string name="notifications">Notifications</string>
+    <string name="search">Search</string>
+    <string name="plans">Plans</string>
+    <string name="categories">Categories</string>
+    <string name="contnue">Continue</string>
+    <string name="pocket">Pocket</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="earn_coupons">Earn Coupons</string>
+    <string name="offers">Offers</string>
+    <string name="in_pocket">In-Pocket</string>
+
+
+
+
+
+    <string name="_5_00_am_6_00_am">5:00 am - 6:00 am</string>
+    <string name="_6_00_am_7_00_am">6:00 am - 7:00 am</string>
+    <string name="_7_00_am_8_00_am">7:00 am - 8:00 am</string>
+    <string name="_8_00_am_9_00_am">8:00 am - 9:00 am</string>
+    <string name="_9_00_am_10_00_am">9:00 am - 10:00 am</string>
+    <string name="_10_00_am_11_00_am">10:00 am - 11:00 am</string>
+    <string name="_11_00am_12_00_pm">11:00am - 12:00 pm</string>
+    <string name="afternoon_slots">Afternoon Slots</string>
+    <string name="_12_00pm_1_00pm">12:00pm - 1:00pm</string>
+    <string name="_1_00_pm_2_00_pm">1:00 pm - 2:00 pm</string>
+    <string name="_2_00_pm_3_00_pm">2:00 pm - 3:00 pm</string>
+    <string name="_3_00_pm_4_00_pm">3:00 pm - 4:00 pm</string>
+    <string name="evening_slots">Evening Slots</string>
+    <string name="_4_00_pm_5_00_pm">4:00 pm - 5:00 pm</string>
+    <string name="_5_00_pm_6_00_pm">5:00 pm - 6:00 pm</string>
+    <string name="night_slots">Night Slots</string>
+    <string name="_6_00_pm_7_00_pm">6:00 pm - 7:00 pm</string>
+    <string name="_7_00_pm_8_00_pm">7:00 pm - 8:00 pm</string>
+    <string name="_8_00_pm_9_00pm">8:00 pm - 9:00pm</string>
+
+
+
+    <string name="permission_rationale_location">Access to the location service is required to  show your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="enable_location">Enable Location</string>
+
+
+
+
+    <string name="api_key">AIzaSyAHrKhCAPjTXp22SVZlpCuJUum9yUShMhU</string>
+    <string name="orders">Orders</string>
+
+</resources>

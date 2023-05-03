@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:title="Notifications"
+        android:icon="@drawable/notification"
+        android:id="@+id/notifications"/>
+    <item
+        app:showAsAction="ifRoom"
+        android:title="Search"
+        android:icon="@drawable/search"
+        android:id="@+id/search"
+        />
+
+
+
+
+
+</menu>

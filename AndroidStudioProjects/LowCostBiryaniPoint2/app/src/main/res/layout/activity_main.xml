@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_above="@id/bottom_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.MainActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <include
+                layout="@layout/toolbar"
+                android:id="@+id/activity_toolbar"
+                >
+            </include>
+
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout
+            android:background="@color/colorAccent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+
+
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_navigation_bar"
+        app:menu="@menu/bottom_menu"
+        android:background="@drawable/blue_gradient"
+        app:itemRippleColor="#ffffff"
+        app:itemIconTint="@xml/bottom_nav_icon_selector"
+        app:itemTextColor="#ffffff"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"/>
+
+
+</RelativeLayout>
