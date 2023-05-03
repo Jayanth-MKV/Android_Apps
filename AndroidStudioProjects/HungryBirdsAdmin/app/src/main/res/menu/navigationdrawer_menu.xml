@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<!--    <item-->
+<!--        android:checked="true"-->
+<!--        android:title="Dashboard"-->
+<!--        android:id="@+id/dashboard"-->
+<!--        />-->
+    <item
+
+        android:title="Manage Orders">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:checked="true"
+                    android:id="@+id/pr"
+                    android:title="Active Orders"
+                    />
+                <item
+                    android:id="@+id/ar"
+                    android:title="Assigned Orders"
+                    />
+                <item
+                    android:id="@+id/dr"
+                    android:title="Failed Orders"
+                    />
+                <item
+                    android:id="@+id/cr"
+                    android:title="Completed Orders"
+                    />
+
+
+            </group>
+        </menu>
+    </item>
+<!--    <item-->
+
+<!--        android:title="Manage Homepage">-->
+<!--        <menu>-->
+<!--            <group-->
+<!--                android:checkableBehavior="single">-->
+<!--                <item-->
+<!--                    android:title="Sliders"-->
+<!--                    android:id="@+id/slider"-->
+<!--                    />-->
+<!--                <item-->
+<!--                    android:id="@+id/Category"-->
+<!--                    android:title="Food Category"-->
+<!--                    />-->
+<!--                <item-->
+<!--                    android:id="@+id/service"-->
+<!--                    android:title="Food Details"-->
+<!--                    />-->
+
+<!--                <item-->
+<!--                    android:id="@+id/quotes"-->
+<!--                    android:title="Manage Quotes"-->
+<!--                    />-->
+
+<!--            </group>-->
+<!--        </menu>-->
+<!--    </item>-->
+<!--    <item-->
+<!--        android:id="@+id/exit"-->
+<!--        android:title="Exit ">-->
+
+<!--    </item>-->
+<!--    <item-->
+<!--        android:id="@+id/log_out"-->
+<!--        android:title="Logout ">-->
+<!--    </item>-->
+
+
+
+
+
+
+
+
+</menu>

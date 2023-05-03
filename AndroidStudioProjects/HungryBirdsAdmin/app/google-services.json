@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "834958513060",
+    "firebase_url": "https://digital-india-39cb8.firebaseio.com",
+    "project_id": "digital-india-39cb8",
+    "storage_bucket": "digital-india-39cb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834958513060:android:b07a4b7e22da455096a731",
+        "android_client_info": {
+          "package_name": "andhrapradesh.sklm.lowcostbiryanipoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834958513060-keb21natbc48t5t7ionroga603aualil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "andhrapradesh.sklm.lowcostbiryanipoint",
+            "certificate_hash": "b16cbbf34994209117b39b1315f3b080b4191667"
+          }
+        },
+        {
+          "client_id": "834958513060-he64nd40fl2cj424un9foe5vm7610l9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvR4H6MyQSMnSeTixzsuy3-iF0Li3D4fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834958513060-he64nd40fl2cj424un9foe5vm7610l9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834958513060:android:80f62e38ab64e6f696a731",
+        "android_client_info": {
+          "package_name": "andhrapradesh.sklm.minerva_hotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834958513060-he64nd40fl2cj424un9foe5vm7610l9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvR4H6MyQSMnSeTixzsuy3-iF0Li3D4fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834958513060-he64nd40fl2cj424un9foe5vm7610l9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834958513060:android:c906a7bac7f2467d96a731",
+        "android_client_info": {
+          "package_name": "com.vugido.foodhub.hungrybirdsadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834958513060-he64nd40fl2cj424un9foe5vm7610l9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvR4H6MyQSMnSeTixzsuy3-iF0Li3D4fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834958513060-he64nd40fl2cj424un9foe5vm7610l9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834958513060:android:5682b0768bb7265096a731",
+        "android_client_info": {
+          "package_name": "vugido.foodhub.ap.sklm.hungrybirds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834958513060-th2dab44rtks15e9v71b81vsufg3b5an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vugido.foodhub.ap.sklm.hungrybirds",
+            "certificate_hash": "247bd6e1d884d43e6c5ff039545196cb279faad8"
+          }
+        },
+        {
+          "client_id": "834958513060-he64nd40fl2cj424un9foe5vm7610l9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvR4H6MyQSMnSeTixzsuy3-iF0Li3D4fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834958513060-he64nd40fl2cj424un9foe5vm7610l9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

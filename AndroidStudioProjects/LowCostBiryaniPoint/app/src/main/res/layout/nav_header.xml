@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ImageView
+        android:background="@color/gradient_start_color"
+        android:src="@drawable/lcbp"
+        android:id="@+id/ClientLogoNavHeader"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+</LinearLayout>

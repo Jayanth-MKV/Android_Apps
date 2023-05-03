@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/blue_gradient"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+
+        android:src="@drawable/home_logo"
+        android:layout_centerInParent="true"
+        android:id="@+id/ClientLogoNavHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+
+</RelativeLayout>

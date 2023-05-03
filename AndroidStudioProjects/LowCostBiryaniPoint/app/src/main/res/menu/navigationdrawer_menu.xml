@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:icon="@drawable/shop"
+            android:title="Home"
+            android:id="@+id/nav_home"
+            />
+        <item
+            android:id="@+id/nav_active_orders"
+            android:icon="@drawable/active"
+            android:title="Active Orders"
+            />
+        <item
+            android:id="@+id/nav_processed_orders"
+            android:icon="@drawable/processed"
+            android:title="Processed Orders"
+            />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account"
+            android:title="Account Settings"
+            />
+    </group>
+<item
+
+    android:title="Communicate">
+    <menu>
+    <item
+        android:id="@+id/call_helpline"
+        android:icon="@drawable/call"
+        android:title="Call Helpline"
+        />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="Share App"
+        />
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/rate"
+        android:title="Rate Our App"
+        />
+    <item
+        android:id="@+id/tc"
+        android:icon="@drawable/terms_c"
+        android:title="Terms  and Conditions"
+        />
+    <item
+        android:id="@+id/pp"
+        android:icon="@drawable/privacy_policy"
+        android:title="Privacy Policy"
+        />
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/about_us"
+        android:title="About Us"
+        />
+</menu>
+</item>
+
+
+    <item
+        android:title=""
+
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/log_out"
+                android:title="LogOut"
+                />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Home Services Admin</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="permission_rationale_location">"Give Permission for Location "</string>
+
+</resources>

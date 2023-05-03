@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<!--    <item-->
+<!--        android:checked="true"-->
+<!--        android:title="Dashboard"-->
+<!--        android:id="@+id/dashboard"-->
+<!--        />-->
+    <item
+
+        android:title="Services">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+<!--                <item-->
+<!--                    android:id="@+id/pr"-->
+<!--                    android:title="New Services"-->
+<!--                    />-->
+                <item
+                    android:checked="true"
+                    android:id="@+id/ar"
+                    android:title="Active Services"
+                    />
+<!--                <item-->
+<!--                    android:id="@+id/dr"-->
+<!--                    android:title="Declined Requests"-->
+<!--                    />-->
+<!--                <item-->
+<!--                    android:id="@+id/cr"-->
+<!--                    android:title="Completed Requests"-->
+<!--                    />-->
+<!--                <item-->
+<!--                    android:id="@+id/fr"-->
+<!--                    android:title="Failed Services"-->
+<!--                    />-->
+
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item
+
+        android:title="Manage Home-Page ">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/ans"
+                    android:title="Add New Service Category"
+                    />
+
+                <item
+                    android:id="@+id/acd"
+                    android:title="Add Category Details"
+                    />
+                <item
+                 android:id="@+id/sac"
+                 android:title="Service Category Details "
+                  />
+                <item
+                    android:id="@+id/esac"
+                    android:title="Edit Category Details "
+                    />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+
+        android:title="Manage NearBy-Page ">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/ann"
+                    android:title="Add New NearBy Category"
+                    />
+
+                <item
+                    android:id="@+id/ancd"
+                    android:title="Add NearBy Category Details"
+                    />
+                <item
+                    android:id="@+id/ani"
+                    android:title="Add NearBy Images "
+                    />
+                <item
+                    android:id="@+id/eancd"
+                    android:title="Edit NearBy Details"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
