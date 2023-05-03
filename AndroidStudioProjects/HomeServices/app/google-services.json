@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "214368475157",
+    "project_id": "home-services-app-d72f9",
+    "storage_bucket": "home-services-app-d72f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214368475157:android:fad93959f45ad31147561c",
+        "android_client_info": {
+          "package_name": "com.vugido.homeservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214368475157-9e8rsc1rlokq949r2ndpjlkpui4negq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vugido.homeservices",
+            "certificate_hash": "247bd6e1d884d43e6c5ff039545196cb279faad8"
+          }
+        },
+        {
+          "client_id": "214368475157-jol57lu98t420ducb7q1j161fu962lnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vugido.homeservices",
+            "certificate_hash": "42dac795e49b19868c76f9d406d4488eb80f7949"
+          }
+        },
+        {
+          "client_id": "214368475157-5eke6oqdreeukg72e4ni9algp1dip535.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8rqnaRQP1amq8AqnvG2oyeK_EERZB-aY"
+        },
+        {
+          "current_key": "AIzaSyBbSVMuUbZ61cWHR58s-WTiwnYhkwedv4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214368475157-5eke6oqdreeukg72e4ni9algp1dip535.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214368475157:android:6901e91b4df6f4cb47561c",
+        "android_client_info": {
+          "package_name": "com.vugido.info.homeservicesadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214368475157-ncupo727nbksbf77abmcuu6m5grlks7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vugido.info.homeservicesadmin",
+            "certificate_hash": "247bd6e1d884d43e6c5ff039545196cb279faad8"
+          }
+        },
+        {
+          "client_id": "214368475157-5eke6oqdreeukg72e4ni9algp1dip535.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8rqnaRQP1amq8AqnvG2oyeK_EERZB-aY"
+        },
+        {
+          "current_key": "AIzaSyBbSVMuUbZ61cWHR58s-WTiwnYhkwedv4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214368475157-5eke6oqdreeukg72e4ni9algp1dip535.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
